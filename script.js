@@ -9,12 +9,7 @@ class Person {
     }
 
     set age(age) {
-        if (age > 0) {
             this._age = age;
-        } else {
-            console.log("Age must be a positive number.");
-        }
-    }
 }
 
 class Student extends Person {
