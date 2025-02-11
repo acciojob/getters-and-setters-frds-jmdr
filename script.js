@@ -11,7 +11,7 @@ get name() {
         return this._name;
     }
 
-set age() {
+set age(age) {
         return this._age;
     }
 class Student extends Person {
